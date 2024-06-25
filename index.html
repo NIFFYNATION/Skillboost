@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" id="Oswald-css"
+    href="https://fonts.googleapis.com/css?family=Oswald%3A1%2C300%2C400%2C400italic%2C500%2C600%2C700%2C700italic&amp;ver=6.5.2"
+    type="text/css" media="all">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- for favicon -->
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <title>Skill Boost</title>
+
+</head>
+
+<body>
+  <header class="">
+    <div class="header-wrapper p-4">
+      <div class="site-logo w-100 nav justify-content-center ">
+        <a href="#">
+          <img src="./images/Skillboost-Africa-Logo-Web.png" alt="">
+        </a>
+      </div>
+
+      <div class="right-nav">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class=" headerlinks  navbar-nav ms-auto me-auto">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link" href="about.html">About</a>
+                <a class="nav-link" href="courses.html">Courses</a>
+                <a class="nav-link" href="corporateTraining.html">Corporate Training</a>
+                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#">Jobs</a>
+                <a class="nav-link" href="contact.html">Contact Us</a>
+
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container-fluid bannerFluid">
+      <div class="row align-items-center rowBanner">
+        <div  class="col ps-5">
+          <h1 data-aos="fade-up-right" class="mb-4" id="words"></h1>
+          <a data-aos="fade-up"  data-aos-easing="ease-in-sine" data-aos-duration="1000" href="" class="text-start bannerBtn">
+            <span>
+                <i class="fa-solid fa-arrow-right me-3"></i>Start Learning Now!
+            </span>
+        </a>
+        </div>
+        <div class="col">
+          <img id="bannerImage" src="" width="100%" alt="">
+        </div>
+       </div>
+      
+      </div>
+
+    </div>
+
+<div class="container text-center mt-4 promoContainer">
+    <h2>Available Courses On Promo!!!</h2>
+    <div class="row align-items-start promoWrapper">
+      
+      <div class="col-lg-4 col-md-12 promoDivs">
+        <a href="#" id="one">
+          Data Analytics Training
+          <i class="fa-solid fa-angle-right"></i>
+        </a>
+      </div>
+
+      <div class="col-lg-4 col-md-12 promoDivs">
+        <a href="#" id="two">
+          Microsoft Suite Training
+          <i class="fa-solid fa-angle-right"></i>
+        </a>
+      </div>
+
+      <div class="col-lg-4 col-md-12 promoDivs">
+        <a href="#" id="three">
+          UI/UX Design Training
+          <i class="fa-solid fa-angle-right"></i>
+        </a>
+      </div>
+    </div>
+    <span>
+      <h2>Our Courses</h2>
+      <p>Explore Our Range of Comprehensive Courses Designed to Expand Your Knowledge and Skills</p>
+    </span>
+  </div>
+  </header>
+
+
+  
+
+  <section class="section2">
+    <div class="container mt-5">
+
+      <div data-aos="fade-up" class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/Web-Development-Training.jpg" class="img-fluid" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Web Development</h5>
+              <p class="card-text">Learn to create professional, responsive websites using HTML, CSS, Javascript and
+                more, and develop 3 real-world portfolio projects.</p>
+              <div class="cdFooter">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <a href="#" class="btn cardBtn"><i class="fa-solid fa-arrow-right"></i> Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 ">
+            <img src="./images/Digital-Marketing-Training-in-Port-Harcourt.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Growth Marketing</h5>
+              <p class="card-text">
+                Master Digital Marketing: Strategy, Social Media Marketing, SEO, YouTube, Email, Content Marketing,
+                Analytics, & More!</p>
+              <div class="cdFooter">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <a href="#" class="btn cardBtn"><i class="fa-solid fa-arrow-right"></i> Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/Computer-Appreciation.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Microsoft Office Suite</h5>
+              <p class="card-text">In this course, you will learn the basics of computer operation, the fundamentals of
+                PCs, Internet Rudiments, the use of MS packages and more.</p>
+              <div class="cdFooter">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <a href="#" class="btn cardBtn"><i class="fa-solid fa-arrow-right"></i> Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div data-aos="fade-up"  class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/Data-Analysis-Training-in-Port-Harcourt.jpg" class="img-fluid" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Data Analytics</h5>
+              <p class="card-text">Accelerate your career in data, and earn a data analytics certification. Learn how to
+                prepare data, perform data analysis, use data visualization techniques, and more.</p>
+              <div class="cdFooter">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <a href="#" class="btn cardBtn"><i class="fa-solid fa-arrow-right"></i> Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 box-shadow">
+            <img src="./images/Project-Management.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Project Management</h5>
+              <p class="card-text">
+                In this course, you'll gain proficiency and methodologies needed to effectively plan, execute, and
+                complete projects on time and within budget.</p>
+              <div class="cdFooter">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <a href="#" class="btn cardBtn"><i class="fa-solid fa-arrow-right"></i> Learn More</a>
+            </div>
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img data-aos="fade-left" src="./images/Computer-Appreciation.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Customer Service</h5>
+              <p class="card-text">In this course, we will teach you the most effective ways to focus on the consumer,
+                understand their expectations, and improve their experience.</p>
+              <div class="cdFooter">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <a href="#" class="btn cardBtn"><i class="fa-solid fa-arrow-right"></i> Learn More</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div data-aos="fade-up" class="row row-cols-1 row-cols-md-3 g-4 mt-5">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./images/UI-UX-Design-Training.jpg" class="img-fluid" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">UI/UX Design</h5>
+              <p class="card-text">In this course, you'll gain job-ready skills by mastering the principles of UI/UX
+                design. You'll learn working on 10 practical projects, and a functional app.</p>
+              <div class="cdFooter">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <a href="#" class="btn cardBtn"><i class="fa-solid fa-arrow-right"></i> Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 box-shadow">
+            <img data-aos="fade-up" src="./images/SOCIAL.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Social Media Marketing</h5>
+              <p class="card-text">
+                In this course, you will learn how to use templates, tools and strategies we use to create profitable
+                social media ads for clients from across the globe.</p>
+              <div class="cdFooter">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <a href="#" class="btn cardBtn"><i class="fa-solid fa-arrow-right"></i> Learn More</a>
+            </div>
+
+          </div>
+        </div>
+        <div class="col">
+          <div class="card ">
+            <img data-aos="fade-left" src="./images/Business-analysis.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Business Analysis</h5>
+              <p class="card-text">In this course, you will learn techniques used to assess companies and industries,
+                enabling you to make informed decisions and recommendations.</p>
+              <div class="cdFooter">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <a href="#" class="btn cardBtn"><i class="fa-solid fa-arrow-right"></i> Learn More</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <div class="container-fluid">
+      <div class="row counterContainer">
+        <div class="col-lg-3 col-md-12 text-center counterContent">
+          <h1 class="counting" data-target="678">0</h1>
+          <p>Success Stories</p>
+        </div>
+        <div class="col-lg-3 col-md-12 text-center counterContent">
+          <h1 class="counting" data-target="1154">0</h1>
+          <p>Happy Students</p>
+        </div>
+        <div class="col-lg-3 col-md-12 text-center counterContent">
+          <h1 class="counting" data-target="14">0</h1>
+          <p>Expert Instructors</p>
+        </div>
+        <div class="col-lg-3 col-md-12 text-center counterContent">
+          <h1 class="counting" data-target="23">0</h1>
+          <p>Total Courses</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-lg-6 col-md-12 alumniContent">
+          <h1>Our Alumni Work At</h1>
+          <p>Our Alumni currently work at some of the innovative companies in Nigeria, Canada and in the U.K. If you are
+            looking to hire results driven talents to join your team, please reach out to us using the Hire A Talent
+            button below.</p>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <img src="./images/partners.jpg" class="w-100" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section5">
+    <div class="container-fluid ">
+      <div class="row instructorsRow mt-5">
+        <div class="contentContainer text-center">
+          <h1>Meet Your Instructors & Mentors</h1>
+          <span>To Deliver Excellent Training, We Work With The Very Best Talents.</span>
+        </div>
+
+        <div class="container slider__container scroller">
+          <i class="fa-solid fa-angle-left left" id="backward"></i>
+          <i class="fa-solid fa-angle-right right" id="forward"></i>
+          <div class="scroller slideInstructors">
+            <div class="scroller__inner ">
+              <div class="imgcontainer">
+                <img src="./images/Abiodun-Musbaudeen.jpg" alt="">
+                <div class="imgContent">
+                  <h3>Abiodun <br> Musbaudeen</h3>
+                  <span>Former Lead Data Analyst at First <br> Bank & Konga</span>
+                </div>
+              </div>
+              <div class="imgcontainer">
+                <img src="./images/Anthony-Alagbile-Chairman-SkillBoost-Africa.jpg" alt="">
+                <div class="imgContent">
+                  <h3>Anthony Alagbile</h3>
+                  <span>Harvard Business School Trained <br> Management Consultant & Chairman</span>
+                </div>
+              </div>
+              <div class="imgcontainer">
+                <img src="./images/Chisom-1.jpg" alt="">
+                <div class="imgContent">
+                  <h3>Chisom Okwaraojimadu</h3>
+                  <span>Google Certified Data Analyst and Data Scientist.</span>
+                </div>
+              </div>
+              <div class="imgcontainer">
+                <img src="./images/Tope-Adeosun.jpg" alt="">
+                <div class="imgContent">
+                  <h3>Tope Adeosun</h3>
+                  <span>Facebook (Meta) Certified Professional & CEO</span>
+                </div>
+              </div>
+              <div class="imgcontainer">
+                <img src="./images/Tope-Fasua.jpg" alt="">
+                <div class="imgContent">
+                  <h3>Tope Fasua</h3>
+                  <span>Special Adviser to the President of Nigeria & Mentor at SkillBoost</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonialContainer">
+          <div class="testimonialContent mt-5 mb-5 text-center">
+            <h5>Testimonials</h5>
+            <p>99% of our previous students rated us 5 stars. <br>Don’t take our word, just read what some of them have
+              to say.</p>
+          </div>
+          
+<!-- The Testimonial Slider -->
+          <div class="container slider__container">
+
+            <div class="row cardScroller">
+              <div class=" col-lg-3 sideContent">
+                <div class="profileIcon">
+                  <img src="./images/Anthony-Alagbile-Chairman-SkillBoost-Africa.jpg" alt="">
+                  <div class="profileContent">
+                    <h5>SkillBoost Limited</h5>
+                    <div class="cdFooter testimonialIcon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p>Based on 174 reviews</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class=" col-lg-9 ">
+                <i class="fa-solid fa-angle-left left back" id="backBtn"></i>
+                <div class="cardWrapper slideTestimonials" id="">
+                  <div class="testimonialCard col-lg-4 col-md-6 col-sm-12">
+                    <div class="profileIcon">
+                      <img src="./images/Anthony-Alagbile-Chairman-SkillBoost-Africa.jpg" alt="">
+                      <div class="profileContent">
+                        <a href="#">Claret Nwachukwu</a>
+                        <p>a month ago</p>
+                      </div>
+                    </div>
+                    <div class="cdFooter testimonialIcon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+  
+                    <span>
+                      Skillboost is the best place to learn a skill. I really gained alot while learning there.
+                    </span>
+                  </div>
+                  <div class="testimonialCard col-lg-4 col-md-6 col-sm-12">
+                    <div class="profileIcon">
+                      <img src="./images/Anthony-Alagbile-Chairman-SkillBoost-Africa.jpg" alt="">
+                      <div class="profileContent">
+                        <a href="#">Victor chidera</a>
+                        <p>a month ago</p>
+                      </div>
+                    </div>
+                    <div class="cdFooter testimonialIcon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>
+                      I applied to study UI/UX design and the training was worth it. The program offers affordable
+                      services, a conducive environment, and properly crafted topics. I would recommend SkillBoost to
+                      everybody.
+                    </span>
+                  </div>
+                  <div class="testimonialCard col-lg-4 col-md-6 col-sm-12">
+                    <div class="profileIcon">
+                      <img src="./images/Anthony-Alagbile-Chairman-SkillBoost-Africa.jpg" alt="">
+                      <div class="profileContent">
+                        <a href="#">da ddy</a>
+                        <p>a month ago</p>
+                      </div>
+                    </div>
+                    <div class="cdFooter testimonialIcon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>
+                      I applied to study UI/UX design and the training was worth it. The program offers affordable
+                      services, a conducive environment, and properly crafted topics. I would recommend SkillBoost to
+                      everybody.
+                    </span>
+                  </div>
+                  <div class="testimonialCard col-lg-4 col-md-6 col-sm-12">
+                    <div class="profileIcon">
+                      <img src="./images/Anthony-Alagbile-Chairman-SkillBoost-Africa.jpg" alt="">
+                      <div class="profileContent">
+                        <a href="#">Enobong Alfred</a>
+                        <p>a month ago</p>
+                      </div>
+                    </div>
+                    <div class="cdFooter testimonialIcon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>
+                      I applied to study UI/UX design and the training was worth it. The program offers affordable
+                      services, a conducive environment, and properly crafted topics. I would recommend SkillBoost to
+                      everybody.
+                    </span>
+                  </div>
+                  <div class="testimonialCard col-lg-4 col-md-6 col-sm-12">
+                    <div class="profileIcon">
+                      <img src="./images/Anthony-Alagbile-Chairman-SkillBoost-Africa.jpg" alt="">
+                      <div class="profileContent">
+                        <a href="#">Kc Best</a>
+                        <p>5 month ago</p>
+                      </div>
+                    </div>
+                    <div class="cdFooter testimonialIcon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>
+                      I applied to study Social Media Marketing, and the training was worth it. The program offers
+                      affordable services, a conducive environment, and properly crafted topics. I would recommend
+                      SkillBoost to anyone.
+                    </span>
+                  </div>
+                  <div class="testimonialCard col-lg-4 col-md-6 col-sm-12">
+                    <div class="profileIcon">
+                      <img src="./images/Anthony-Alagbile-Chairman-SkillBoost-Africa.jpg" alt="">
+                      <div class="profileContent">
+                        <a href="#">GBORIGI SAMUEL</a>
+                        <p>3 month ago</p>
+                      </div>
+                    </div>
+                    <div class="cdFooter testimonialIcon">
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                      <i class="fa-solid fa-star"></i>
+                    </div>
+                    <span>
+                      I didn't like online courses because most of them don't give the value they promised, but
+                      skillboost limited changed the narrative for me, I got value for my time and investment.
+                    </span>
+                  </div>
+                </div>
+                <i class="fa-solid fa-angle-right right next" id="nextBtn"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container-fluid subFooter">
+      
+      <div class="container">
+        <div class="footerLogo mb-4">
+          <img src="./images/SkillBoost-logo-white-150x75.png" alt="">
+        </div>
+        <div class="contentContainer text-center">
+          <span>SkillBoost is Africa’s leader in Tech and Business skills training, empowering individuals and
+            organizations to succeed in the digital age. Our project-based training courses has helped thousands of
+            students grow or launch new careers in the tech industry. If you want to develop the skills needed by
+            employers globally, you can enroll in our in-class training or online training.
+          </span>
+        </div>
+        <div class="socialLinks">
+          <ul>
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook subfooterIcon"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram subfooterIcon"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter subfooterIcon"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="mainFooter text-center d-grid mb-5">
+      <a href="#"><i class="fa-solid fa-angle-up mainFooterIcon mb-3 mt-5 fs-3"></i></a>
+      <span>© 2022 SkillBoost Limited. All Rights Reserved.</span>
+    </div>
+  </section>
+
+
+  <script>
+    AOS.init();
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
