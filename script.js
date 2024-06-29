@@ -1,39 +1,34 @@
+// (function () {
+//     var words = [
+//         "Accelerate Your Future. " + " Boost Your Skills",
+//         "Learn And Work On Live Project " + " From Clients Across The Globe",
+//         "Get 100% Job Assistance " + " & Attain Your Dream Career",
+//         "Grooming The Next " + " Generation Of Tech " + " Experts",
+//         "Be Future Proof " + " Learn High-In-Demand " + "Tech Skills"
+//     ],
+//         i = 1;
+//     setInterval(function () {
+//         var elem = document.getElementById("words");
+//         elem.style.opacity = 1;
+//         setTimeout(function () {
+//             elem.innerHTML = words[(i = (i + 1) % words.length)];
+//             elem.style.opacity = 1;
+//         });
+//     }, 7000);
+// })();
 
 
+// let bannerImage = document.getElementById("bannerImage");
+// let images = ["./images/happy-young-african-man-using-laptop-computer.png",
+//              "./images/portrait-young-african-woman-with-laptop-white.png",
+//              "./images/portrait-happy-young-woman-removebg.png",
+//              "./images/surprised-african-woman-covering-her-mouth-by-hand-while-looking-smartphone-screen-Photoroom.png",
+//               "./images/portrait-excited-young-african-couple.png"]
 
-
-
-(function () {
-    var words = [
-        "Accelerate Your Future. " + " Boost Your Skills",
-        "Learn And Work On Live Project " + " From Clients Across The Globe",
-        "Get 100% Job Assistance " + " & Attain Your Dream Career",
-        "Grooming The Next " + " Generation Of Tech " + " Experts",
-        "Be Future Proof " + " Learn High-In-Demand " + "Tech Skills"
-    ],
-        i = 1;
-    setInterval(function () {
-        var elem = document.getElementById("words");
-        elem.style.opacity = 1;
-        setTimeout(function () {
-            elem.innerHTML = words[(i = (i + 1) % words.length)];
-            elem.style.opacity = 1;
-        });
-    }, 7000);
-})();
-
-
-let bannerImage = document.getElementById("bannerImage");
-let images = ["./images/happy-young-african-man-using-laptop-computer.png",
-             "./images/portrait-young-african-woman-with-laptop-white.png",
-             "./images/portrait-happy-young-woman-removebg.png",
-             "./images/surprised-african-woman-covering-her-mouth-by-hand-while-looking-smartphone-screen-Photoroom.png",
-              "./images/portrait-excited-young-african-couple.png"]
-
-setInterval(function () {
-    let random = Math.floor(Math.random() * 5);
-    bannerImage.src = images [random];
-}, 7000)
+// setInterval(function () {
+//     let random = Math.floor(Math.random() * 5);
+//     bannerImage.src = images [random];
+// }, 7000)
 
 // .../ For instructors and mentors non stop scrolls
 let scrollers = document.querySelectorAll(".scroller");

@@ -19,6 +19,10 @@
     <!-- for favicon -->
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
+    <!-- splide -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -40,15 +44,15 @@
       </div>
 
       <div class="right-nav">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-          <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid  navContainer">
             <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
               aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class=" headerlinks  navbar-nav ms-auto me-auto">
+              <div class=" headerlinks  navbar-nav ms-auto me-auto text-center">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                 <a class="nav-link" href="about.html">About</a>
                 <a class="nav-link" href="courses.html">Courses</a>
@@ -64,13 +68,13 @@
       </div>
     </div>
 
-    <div class="container-fluid bannerFluid">
+    <!-- <div class="container-fluid bannerFluid">
       <div class="row align-items-center rowBanner">
-        <div  class="col ps-5">
-          <h1 data-aos="fade-up-right" class="mb-4" id="words"></h1>
-          <a data-aos="fade-up"  data-aos-easing="ease-in-sine" data-aos-duration="1000" href="" class="text-start bannerBtn">
+        <div  class="col bannerContent">
+          <h1 data-aos="fade-up-right" class="mb-5" id="words"></h1>
+          <a data-aos="fade-up"  data-aos-easing="ease-in-sine" data-aos-duration="1000" href="" class="text-start bannerBtn mt-5">
             <span>
-                <i class="fa-solid fa-arrow-right me-3"></i>Start Learning Now!
+                <i class="fa-solid fa-arrow-right me-3"></i>Click to learn more
             </span>
         </a>
         </div>
@@ -79,9 +83,72 @@
         </div>
        </div>
       
-      </div>
+      
 
-    </div>
+    </div> -->
+
+
+    <div class="splide" role="group" aria-label="Splide Basic HTML Example">
+      <div class="splide__track">
+            <div class="splide__list">
+                <div class="splide__slide">
+                  <div class="slide">
+                  <h1 data-aos="fade-up-right">
+                    Get 100% Job Assistance & Attain Your Dream Career
+                  </h1>
+                  <div class="image">
+                    <img src="images/portrait-excited-young-african-couple.png" alt="">
+                  </div>
+                  </div>
+                </div>
+                
+                <div class="splide__slide">
+                  <div class="slide">
+                  <h1>
+                    Accelerate Your Future. Boost Your Skills
+                  </h1>
+                  <div class="image">
+                    <img src="images/portrait-excited-young-african-couple.png" alt="">
+                  </div>
+                  </div>
+                </div>
+
+                <div class="splide__slide">
+                  <div class="slide">
+                  <h1>
+                    Learn And Work On Live Project From Clients Across The Globe
+                  </h1>
+                  <div class="image">
+                    <img src="images/portrait-excited-young-african-couple.png" alt="">
+                  </div>
+                  </div>
+                </div>
+                <div class="splide__slide">
+                  <div class="slide">
+                  <h1>
+                    Be Future Proof Learn High-In-Demand Tech Skills
+                  </h1>
+                  <div class="image">
+                    <img src="images/portrait-excited-young-african-couple.png" alt="">
+                  </div>
+                  </div>
+                </div>
+                <div class="splide__slide">
+                  <div class="slide">
+                  <h1>
+                    Grooming The Next <br> Generation Of Tech <br> Experts
+                  </h1>
+                  <div class="image">
+                    <img src="images/portrait-excited-young-african-couple.png" alt="">
+                  </div>
+                  </div>
+                </div>
+            </div>
+      </div>
+    </div> 
+
+    
+
 
 <div class="container text-center mt-4 promoContainer">
     <h2>Available Courses On Promo!!!</h2>
@@ -358,14 +425,14 @@
                 <img src="./images/Abiodun-Musbaudeen.jpg" alt="">
                 <div class="imgContent">
                   <h3>Abiodun <br> Musbaudeen</h3>
-                  <span>Former Lead Data Analyst at First <br> Bank & Konga</span>
+                  <span>Former Lead Data Analyst at First Bank & Konga</span>
                 </div>
               </div>
               <div class="imgcontainer">
                 <img src="./images/Anthony-Alagbile-Chairman-SkillBoost-Africa.jpg" alt="">
                 <div class="imgContent">
                   <h3>Anthony Alagbile</h3>
-                  <span>Harvard Business School Trained <br> Management Consultant & Chairman</span>
+                  <span>Harvard Business School Trained Management Consultant & Chairman</span>
                 </div>
               </div>
               <div class="imgcontainer">
@@ -598,6 +665,20 @@
   <script>
     AOS.init();
   </script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+
+<script>
+  var splide = new Splide( '.splide', {
+  type  : 'fade',
+  rewind: true,
+  autoplay:true,
+  } );
+
+splide.mount();
+  new Splide( '.splide' ).mount();
+</script>
   <script src="script.js"></script>
 </body>
 
