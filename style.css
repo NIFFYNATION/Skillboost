@@ -65,8 +65,35 @@ body {
     font-size: clamp(20px, 5vw, 60px);
     font-weight: 300;
     font-family: "Oswald";
+    /* marg in-bottom: 3rem; */
     padding-left: 6rem;
+    padding-top: 3rem;
 }
+
+ .slideText a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+    /* margin-left: 6rem; */
+    /* font-size: 4px;
+    padding: 10px;
+    text-decoration: none;
+    color: var(--textColor);
+    border-radius: 8px;
+    background: var(--primaryColor); */
+} 
+ .button{
+    width:230px;
+    margin-left:6rem;
+    margin-top: 4px;
+    font-size: 20px;
+    padding: 10px;
+    color: var(--textColor);
+    border-radius: none!important;
+    border: none;
+    background: var(--primaryColor)!important;
+ }
 
 /* .image{
     width: 100%;
@@ -80,14 +107,35 @@ body {
 @media screen and (max-width:840px) {
 
     .slide h1{
-        padding-left: 1rem;
-        padding-bottom: 3rem;
+        padding-left: 3rem;
+        padding-bottom: 1rem;
     }
 
     .slide{
         padding-top: 3rem;
         height: 28vh;
+    }
+    .button{
+        max-width: 200px;
+        margin-top: -40px;
+        margin-bottom: 50px;
+        margin-left: 3rem;
+        text-align: center;
+        padding: 3px 1rem!important;
+        padding-bottom: 3px!important;
+
+
+
     } 
+    .slideText a{
+        font-size: 15px;
+
+       
+    }
+    i.icon-arrw{
+        font-size: 10px;
+    }
+    
     } 
 
 
@@ -98,9 +146,13 @@ body {
     }
 
     .slide{
-        height: 23vh;
+        height: 30vh;
         justify-content: space-between;
     } 
+   
+    .button{
+        margin-left: 1rem;
+    }
 
 }
 
