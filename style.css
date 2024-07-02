@@ -83,15 +83,6 @@ body {
     background-repeat: no-repeat;
 }
 
-/* .slide{
-    background-image: url("./images/white-painted-wall-texture-background.jpg");
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 80vh;
-    align-items: center;
-} */
-
 
 .splide__arrows {
     display: none;
@@ -116,14 +107,6 @@ body {
     text-decoration: none;
     color: white;
     font-size: 18px;
-
-    /* margin-left: 6rem; */
-    /* font-size: 4px;
-    padding: 10px;
-    text-decoration: none;
-    color: var(--textColor);
-    border-radius: 8px;
-    background: var(--primaryColor); */
 }
 
 .button {
@@ -141,10 +124,10 @@ body {
 /* .image{
     width: 100%;
 } */
-.image img {
+/* .image img {
     width: 60vw;
     min-height: 100%;
-}
+} */
 
 
 @media screen and (max-width:840px) {
@@ -159,8 +142,14 @@ body {
     }
 
     .slide h1 {
-        padding-left: 3rem;
-        padding-bottom: 1rem;
+        /* padding-left: 3rem;
+        padding-bottom: 1rem; */
+        padding-bottom: 0.6rem;
+        margin-top: -1rem;
+    }
+    .text_5 .slide h1 {
+        padding-bottom: 10pxrem;
+        margin-top: -2rem;
     }
 
     .slide {
@@ -219,6 +208,7 @@ body {
 
     .slide h1 {
         padding-left: 1rem;
+        font-size: clamp(20px, 5vw, 60px);
     }
 
     .slide {
