@@ -30,6 +30,23 @@
 //     bannerImage.src = images [random];
 // }, 7000)
 
+
+let bad = document.querySelector('#bad');
+let men = document.querySelector('#men');
+let black = document.querySelector('#black');
+
+black.style.display = "none";
+let mens = () =>{
+    if(black.style.display == "none"){
+        black.style.display = "block";
+    }
+}
+let bads = () =>{
+    if(black.style.display == "block"){
+        black.style.display = "none";
+    }
+}
+
 // .../ For instructors and mentors non stop scrolls
 let scrollers = document.querySelectorAll(".scroller");
 
